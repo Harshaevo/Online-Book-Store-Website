@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>William Faulkner's Books</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="web.html"><img src="images/logo.jpg.png"></a>
+                <div class="nav-links" id="navLinks">
+                
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                  
+                    <ul>
+                        <li><a href=""class="active">Home</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="Books.html">Books</a></li>
+                        <li><a href="News and Promotion.html">News</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Contact Us.html">Contact Us</a></li> 
+                    </ul>
+                </div>
+                <label id="icon">
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </label>
+            </nav>
+            <div class="text-box">
+                <h1>William Faulkner's Books Store</h1>
+                <p>“Reading is essential for those who seek to rise above the ordinary.”</p>
+            </div>
+
+        </section>
+<!--------------------------java script -->
+         <script>
+             var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+                 navLinks.style.right="0";
+             }
+             function hideMenu(){
+                 navLinks.style.right="-200px";
+             }
+
+         </script>
+
+    </body>
+</html>

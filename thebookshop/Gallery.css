@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(3, 9, 31, 0.7),rgba(34, 36, 43, 0.7)),url(images/cover.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container .row{
+    width: 85%;
+    margin:auto;
+}
+.container .row .heading-section{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.container .row .heading-section h1{
+    padding-top: 30px;
+    font-size: 42px;
+    color: #FFFAF0;
+}
+.container .row .heading-section p{
+    margin-top: 15px;
+    color: #FFFAF0;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.content-section .card{
+    flex: 1;
+    margin: 40px 20px;
+}
+.content-section .card img{
+    width: 100%;
+    height: auto;
+}
+.content-section .card h4{
+    margin-top: 24px;
+    color:#F5F5F5 ;
+
+}
+.content-section .card p{
+    font-size: 14px;
+    margin-top: 10px;
+    color:#E9E4D4 ;
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width:768px){
+    .content-section{
+        flex-direction: column;
+        
+    }
+
+
+
+    
+}
